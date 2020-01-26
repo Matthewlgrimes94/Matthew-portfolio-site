@@ -1,19 +1,43 @@
-#github-icon {
-    position: relative;
-    margin-top: 21px;
-    height: 100%;
-}
-
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+  margin: 0;
+  padding: 0;
+}
 
-  #carousel {
-      margin-top: 30px;
-  }
+#carousel {
+    margin-top: 30px;
+}
+
+.parallax-container {
+  height: 400px;
+  position: relative;
+}
+
+.parallax-large {
+  height: 500px !important
+}
+
+h1, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.card i {
+  padding-left: 25px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-action {
+  min-height: 100%;
+}
+

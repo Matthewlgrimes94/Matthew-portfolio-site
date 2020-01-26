@@ -9,4 +9,5 @@ $(document).ready(function(){
     $('.prev').click(function() {
     $('.carousel.carousel-slider').carousel('prev');
     });
+    $('.parallax').parallax();
   });
