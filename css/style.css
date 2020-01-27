@@ -8,8 +8,6 @@ body {
 
 main {
   flex: 1 0 auto;
-  margin: 0;
-  padding: 0;
 }
 
 #carousel {
@@ -35,9 +33,43 @@ h1, h3 {
 
 .card {
   height: 100%;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.card-link {
+  color: black;
+}
+
+.hover {
+  transform: translateY(-10px);
 }
 
 .card-action {
   min-height: 100%;
 }
+
+.prev, .next { 
+    position: relative;
+    bottom: 7vh;
+}
+
+i {
+  height: 0px !important;
+}
+
+.github-icon {
+  margin-top: 22px;
+}
+
+.linkedin-icon {
+  margin-top: 22px;
+}
+
+.form-row {
+  padding-top: 100px;
+}
+ .send-btn {
+   margin-left: 20px;
+ }
 

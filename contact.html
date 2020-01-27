@@ -14,6 +14,59 @@
 </head>
 
 <body>
+    <nav class="cyan lighten-3">
+        <div class="nav-wraper">
+            <a href="#" data-target="mobile-show" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/matthew-grimes-4b6911194/"><i class="fab fa-linkedin linkedin-icon"></i></a></li>
+                <li><a target="_blank" href="https://github.com/Matthewlgrimes94"><i class="fab fa-github github-icon"></i></a></li>
+            </ul>
+       </div>
+    
+      <ul class="sidenav" id="mobile-show">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/matthew-grimes-4b6911194/"><i class="fab fa-linkedin" id="linkedin-icon"></i></a></li>
+        <li><a target="_blank" href="https://github.com/Matthewlgrimes94"><i class="fab fa-github" id="github-icon"></i></a></li>
+      </ul>
+    </nav>
+    <main>
+        <div class="row form-row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="First Name" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="message" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <a href="#" class="btn send-btn">Send Email</a>
+            </form>
+          </div>
+    </main>
+    <footer class="page-footer cyan lighten-3 text-white">
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/index.js"></script>
