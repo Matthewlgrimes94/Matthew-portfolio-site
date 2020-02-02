@@ -1,9 +1,12 @@
 # Matthew-Portfolio-site
 
 # Link
+   * https://matthewlgrimes94.github.io/Portfolio-2/
 
 # Screenshots
-
+   * ![screenshot](https://github.com/Matthewlgrimes94/Portfolio-2/blob/master/images/Screenshot%20(26).png)
+   * ![screenshot](https://github.com/Matthewlgrimes94/Portfolio-2/blob/master/images/Screenshot%20(27).png)
+   * ![screenshot](https://github.com/Matthewlgrimes94/Portfolio-2/blob/master/images/Screenshot%20(28).png)
 # Assets:
     *Foundation CSS and JS
     *Google Fonts
