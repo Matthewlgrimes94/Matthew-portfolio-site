@@ -43,6 +43,7 @@ h1, h3 {
 
 .hover {
   transform: translateY(-10px);
+  transition-duration: 300ms;
 }
 
 .card-action {
@@ -69,7 +70,8 @@ i {
 .form-row {
   padding-top: 100px;
 }
- .send-btn {
-   margin-left: 20px;
- }
+
+.send-btn {
+  margin-left: 20px;
+}
 
