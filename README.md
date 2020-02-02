@@ -1,7 +1,7 @@
 # Matthew-Portfolio-site
 
 # Link
-   * https://matthewlgrimes94.github.io/Portfolio-2/
+   * https://matthewlgrimes94.github.io/Matthew-portfolio-site/
 
 # Screenshots
    * ![screenshot](https://github.com/Matthewlgrimes94/Portfolio-2/blob/master/images/Screenshot%20(26).png)
