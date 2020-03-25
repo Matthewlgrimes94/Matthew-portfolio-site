@@ -75,3 +75,15 @@ i {
   margin-left: 20px;
 }
 
+.mar {
+  margin-bottom: 10px;
+}
+
+.marT {
+  margin-top: 20px;
+}
+
+.repoCard{
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}

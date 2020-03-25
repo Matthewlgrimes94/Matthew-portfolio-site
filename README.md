@@ -13,6 +13,7 @@
     *Font Awesome
     *JQuery
     *Stackoverflow
+    *Github API
 
 # License
 
